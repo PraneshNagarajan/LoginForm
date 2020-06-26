@@ -48,10 +48,6 @@ import { MatRadioModule } from '@angular/material/radio';
     MatMenuModule,
     MatToolbarModule,
     MatRadioModule,
-    RouterModule.forRoot([
-      { path: 'login', component: LoginComponent },
-      { path: 'signUp', component: SignUpFormComponent }
-    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
