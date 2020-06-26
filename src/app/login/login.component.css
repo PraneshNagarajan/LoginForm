@@ -6,6 +6,11 @@ div mat-card{
     padding: 0px;
 }
 
-mat-toolbar {
+form {
     padding: 20px;
 }
+
+.mat-radio-button ~ .mat-radio-button {
+    margin-left: 16px;
+  }
+  
