@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "SignInForm"
+    }
+  },
+  "defaultProject": "SignInForm",
+  "cli": {
+    "analytics": "181540ed-e121-4b17-a80e-38773768e0a6"
+  }
 }

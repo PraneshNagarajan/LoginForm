@@ -1,0 +1,11 @@
+div {
+    display: flex;
+    margin-top: 15%;
+}
+div mat-card{
+    padding: 0px;
+}
+
+mat-toolbar {
+    padding: 20px;
+}
