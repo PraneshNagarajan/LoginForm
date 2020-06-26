@@ -48,7 +48,6 @@ import { MatRadioModule } from '@angular/material/radio';
     MatMenuModule,
     MatToolbarModule,
     MatRadioModule,
-    AngularFireModule.initializeApp(environment.firebaseConfig),
     RouterModule.forRoot([
       { path: 'login', component: LoginComponent },
       { path: 'signUp', component: SignUpFormComponent }
