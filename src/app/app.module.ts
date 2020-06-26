@@ -15,11 +15,13 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatStepperModule } from '@angular/material/stepper';
+import { MatNativeDateModule } from '@angular/material/core';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatRadioModule } from '@angular/material/radio';
 
 
 @NgModule({
@@ -39,11 +41,13 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     MatInputModule,
     MatTabsModule,
     MatStepperModule,
+    MatNativeDateModule,
     MatDatepickerModule,
     MatCheckboxModule,
     MatDialogModule,
     MatMenuModule,
     MatToolbarModule,
+    MatRadioModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     RouterModule.forRoot([
       { path: 'login', component: LoginComponent },
